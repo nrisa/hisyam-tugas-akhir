@@ -8,6 +8,10 @@ html, body {
   font-family: 'Inter', sans-serif;
 }
 
+body {
+  background-color: #F5F5F5;
+}
+
 :root {
   --main : rgba(0, 161, 190, 1);
 }
@@ -16,7 +20,16 @@ html, body {
   padding: 0 80px;
 }
 
-.App {
+.danger {
+  color: rgba(253, 36, 85, 1);
+}
+
+.on-menu {
+  color: var(--main);
+  font-weight: bold;
+}
+
+/* .App {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -24,4 +37,4 @@ html, body {
 
 main {
   flex: 1;
-}
+} */
