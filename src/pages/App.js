@@ -2,20 +2,23 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Pages dan Component
-import { SetProfil, ExchangePoin, Main } from '.';
+import { Setting, ExchangePoin, Main } from '.';
 import { Navbar, Footer } from '../components'
 
 // css
 import '../assets/css/App.css'
+import { useState } from 'react';
 
 function App() {
+  const [navigasi, setNavigasi] = useState('profil')
+
   return (
     <Router>
       <div className='App'>
         <Navbar />
         <main>
           <Routes>
-            <Route path='/setprofile' element={<SetProfil />} />
+            <Route path='/setting' element={<Setting nav={setNavigasi} choose={navigasi} />} />
             <Route path='/poin' element={<ExchangePoin />} />
             <Route path='/' element={<Main />} />
           </Routes>

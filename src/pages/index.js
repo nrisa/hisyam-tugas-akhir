@@ -1,5 +1,5 @@
-import SetProfil from './SetProfil'
+import Setting from './Setting'
 import ExchangePoin from './ExchangePoin'
 import Main from './Main'
 
-export { SetProfil, ExchangePoin, Main }
+export { Setting, ExchangePoin, Main }

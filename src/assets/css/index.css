@@ -29,6 +29,10 @@ body {
   font-weight: bold;
 }
 
+.list-menu:hover {
+  cursor: pointer;
+}
+
 /* .App {
   display: flex;
   flex-direction: column;
