@@ -14,13 +14,13 @@ const SetAkun = (props) => {
               <td><label>Nomor Telepon</label></td>
             </tr>
             <tr>
-              <td className='form-profil-input'><input type="text" placeholder={'088888888888'} /></td>
+              <td className='form-profil-input'><input type="text" style={{color:'gray'}} value={'088888888888'} id="tlp" /></td>
             </tr>      
             <tr>
               <td><label>Email</label></td>
             </tr>
             <tr>
-              <td className='form-profil-input'><input type="text" placeholder={'hawari.hisyam1@gmail.com'} /></td>
+              <td className='form-profil-input'><input type="text" style={{color:'gray'}} value={'hawari.hisyam1@gmail.com'} id="mail" /></td>
             </tr>
             <tr>
               <td><button className='btn' style={{marginTop:'13px'}}>Edit</button></td>

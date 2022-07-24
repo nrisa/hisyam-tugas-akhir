@@ -156,3 +156,39 @@ input {
   border: none;
 }
 
+/* poin css */
+
+.cpoin {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cp {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  margin-top: 5px;
+  color: #9FAAA9;
+}
+
+.label-on {
+  color: var(--main);
+}
+
+.cp-on {
+  border-bottom: 2px solid var(--main);
+}
+
+.cp:hover {
+  cursor: pointer;
+}

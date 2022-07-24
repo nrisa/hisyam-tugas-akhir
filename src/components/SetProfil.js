@@ -14,19 +14,19 @@ const SetProfil = (props) => {
               <td><label>Nama</label></td>
             </tr>
             <tr>
-              <td className='form-profil-input'><input type="text" placeholder='Hisyam Hawari' /></td>
+              <td className='form-profil-input'><input type="text" style={{color:'gray'}} value='Hisyam Hawari' /></td>
             </tr>      
             <tr>
               <td><label>Jenis Kelamin</label></td>
             </tr>
             <tr>
-              <td className='form-profil-input'><input type="text" placeholder='Laki-Laki' /></td>
+              <td className='form-profil-input'><input type="text" style={{color:'gray'}} value='Laki-Laki' /></td>
             </tr>   
             <tr>
               <td><label>Tanggal Lahir</label></td>
             </tr>
             <tr>
-              <td className='form-profil-input'><input type="text" placeholder='1 Agustus 2000' /></td>
+              <td className='form-profil-input'><input type="text" style={{color:'gray'}} value='1 Agustus 2000' /></td>
             </tr>   
             <tr>
               <td><button className='btn' style={{marginTop:'13px'}}>Edit</button></td>
