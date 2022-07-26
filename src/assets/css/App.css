@@ -90,7 +90,7 @@ footer {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 200px;
-  filter: drop-shadow(0px 2px 89px rgba(65, 65, 65, 0.14));
+  filter: drop-shadow(0px 2px 39px rgba(65, 65, 65, 0.14));
   display: flex;
 }
 
@@ -200,7 +200,7 @@ input {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 200px;
-  filter: drop-shadow(0px 2px 89px rgba(65, 65, 65, 0.14));
+  filter: drop-shadow(0px 2px 39px rgba(65, 65, 65, 0.14));
   padding: 30px;
 }
 
@@ -210,6 +210,17 @@ input {
   color: var(--main);
   border-radius: 15px;
   margin-right: 10px;
+}
+
+.btn-ds {
+  border: 1px solid var(--main);
+  padding: 8px 13px;
+  color: var(--main);
+  border-radius: 4px;
+  position: absolute;
+  font-size: 14px;
+  top: 20px;
+  right: 20px;
 }
 
 .on-btn-wallet {
@@ -267,4 +278,86 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
+}
+
+.sb-ts {
+  width: 180px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  color: #9FAAA9;
+}
+
+.sb-ts-on {
+  color: var(--main);
+  border-bottom: 3px solid var(--main);
+}
+
+.card-iii {
+  width: 60%;
+  padding: 20px;
+  position: relative;
+  background-color: rgba(249, 254, 254, 1);
+  margin: auto;
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 2px 39px rgba(65, 65, 65, 0.14));
+  padding: 30px;
+}
+
+.ts-top {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D1D2D4;
+}
+
+.sicontainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sicontainer-ii {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ts-bottom {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.tp {
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.ip {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bstatusp {
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #F0AC0E;
+  font-weight: 300;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bj {
+  margin-top: 120px;
+}
+
+.sb-ts:hover {
+  cursor: pointer;
 }

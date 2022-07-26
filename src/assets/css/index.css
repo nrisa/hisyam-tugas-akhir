@@ -33,7 +33,7 @@ body {
   cursor: pointer;
 }
 
-.App {
+/* .App {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -41,4 +41,4 @@ body {
 
 main {
   flex: 1;
-}
+} */

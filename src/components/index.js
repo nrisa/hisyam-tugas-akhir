@@ -6,6 +6,9 @@ import SetAkun from './SetAkun';
 import SetProfil from './SetProfil';
 import Wallet from './Wallet';
 import Pulsa from './Pulsa';
+import Proses from './Proses';
+import Selesai from './Selesai';
+import Batal from './Batal';
 
 export { 
   Navbar, 
@@ -15,5 +18,8 @@ export {
   SetAkun,
   SetProfil,
   Wallet,
-  Pulsa
+  Pulsa,
+  Proses,
+  Selesai,
+  Batal
 }
