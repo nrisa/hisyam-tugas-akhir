@@ -1,22 +1,21 @@
-import { Banner } from '../components';
-import { wallet, poff } from '../assets/img'
+import { Banner, Wallet, Pulsa } from '../components';
 
-const ExchangePoin = () => {
-  return (
-    <>
-      <Banner title="Penukaran Poin" sub="Riwayat Penukaran" />
-      <div className="cpoin">
-        <div className='cp cp-on'>
-          <img src={wallet} width="25px" />
-          <span className='label label-on'>E-Wallet</span>
-        </div>
-        <div className='cp'>
-          <img src={poff} width="18px" />
-          <span className='label'>Pulsa</span>
-        </div>
-      </div>
-    </>
-  )
+const ExchangePoin = (props) => {
+  if(props.choose === "wallet"){
+    return (
+      <>
+        <Banner title="Penukaran Poin" sub="Riwayat Penukaran" />
+        <Wallet sub={props.nav} />
+      </>
+    )
+  }else if(props.choose === 'pulsa') {
+    return (
+      <>
+        <Banner title="Penukaran Poin" sub="Riwayat Penukaran" />
+        <Pulsa sub={props.nav} />
+      </>
+    )
+  }
 }
 
 export default ExchangePoin;

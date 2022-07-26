@@ -4,6 +4,9 @@ const Main = () => {
   return (
     <>
       <Banner title="Transaksi Sampah" />
+      <div class="b-ts">
+
+      </div>
     </>
   )
 }

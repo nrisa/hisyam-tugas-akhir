@@ -11,6 +11,7 @@ import { useState } from 'react';
 
 function App() {
   const [navigasi, setNavigasi] = useState('profil')
+  const [poin, setPoin] = useState('wallet')
 
   return (
     <Router>
@@ -19,7 +20,7 @@ function App() {
         <main>
           <Routes>
             <Route path='/setting' element={<Setting nav={setNavigasi} choose={navigasi} />} />
-            <Route path='/poin' element={<ExchangePoin />} />
+            <Route path='/poin' element={<ExchangePoin nav={setPoin} choose={poin} />} />
             <Route path='/' element={<Main />} />
           </Routes>
         </main>
