@@ -72,6 +72,13 @@ header {
   color: white;
 }
 
+header h5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
 /* Footer */
 footer {
   padding: 15px 0;
@@ -148,12 +155,21 @@ input {
 }
 
 .btn {
-  width: 130px;
+  width: 160px;
   height: 38px;
   border-radius: 4px;
   background-color: var(--main);
   color: white;
   border: none;
+}
+
+.btn-out {
+  width: 160px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: white;;
+  color: var(--main);
+  border: 1px solid var(--main);
 }
 
 /* poin css */
@@ -221,6 +237,10 @@ input {
   font-size: 14px;
   top: 20px;
   right: 20px;
+}
+
+.btn-ds:hover {
+  cursor: pointer;
 }
 
 .on-btn-wallet {
@@ -307,6 +327,18 @@ input {
   padding: 30px;
 }
 
+.card-iv {
+  width: 88%;
+  padding: 20px;
+  position: relative;
+  background-color: rgba(249, 254, 254, 1);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 2px 39px rgba(65, 65, 65, 0.14));
+  padding: 30px;
+}
+
 .ts-top {
   width: 100%;
   padding-bottom: 20px;
@@ -342,6 +374,7 @@ input {
 }
 
 .bstatusp {
+  font-size: 13px;
   display: inline-block;
   width: 160px;
   height: 30px;
@@ -360,4 +393,116 @@ input {
 
 .sb-ts:hover {
   cursor: pointer;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.Link:hover {
+  cursor: pointer;
+}
+
+.Link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.tahap-t {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+div.tahap-t span a {
+  font-size: 10px;
+  color: var(--main);
+  margin-right: 18px;
+}
+
+div.tahap-t p {
+  font-size: 11px;
+  color: #5C5E6A;
+}
+
+/* detail */
+.grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gkiri, .gkanan {
+  width: 49%;
+}
+
+.gkotak {
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid #D1D2D4;
+  border-radius: 8px;
+}
+
+.g-spec {  
+  display: flex;
+  padding: 23.5px 20px !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dkode {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5C5E6A;
+}
+
+.tbiru {
+  display: block;
+  color: var(--main);
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.txt {  
+  margin-top: 4px;
+  font-size: 12px;
+  color: #9FAAA9;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bjd {
+  margin-top: 20px;
+}
+
+.fixin {
+  display: flex;
+  align-items: center;
+}
+
+.btn-resi {
+  width: 140px;
+  height: 38px;
+  margin-left: 10px;
+  background-color: #D1D2D4;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.dager {
+  text-decoration: underline;
+  color: #FD2455;
+}
+
+.rapi {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
 }

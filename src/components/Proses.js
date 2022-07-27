@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Proses = () => {
   return (
     <>
@@ -21,7 +23,9 @@ const Proses = () => {
               </span>
             </div>
           </div>
+          <Link to="/detail" className='Link'>
           <div className="btn-ds">Lihat Detail</div>
+          </Link>
         </div>
         <div className="ts-bottom">
         <div className="sicontainer-ii">
