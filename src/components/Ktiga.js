@@ -97,7 +97,7 @@ const Ktiga = () => {
                                 <div className='tahap-t'>
                                 <span className='dager'>Batalkan transaksi</span>
                                 <span className='rapi'>
-                                <button className='btn'>Cek status sampah</button>
+                                <Link to={'/sampah'}><button className='btn'>Cek status sampah</button></Link>
                                 <button className='btn-out'>Hubungi kami</button>
                                 </span>
                                 </div>

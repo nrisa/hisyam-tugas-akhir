@@ -12,7 +12,7 @@ const Navbar = () => {
       <h1><img src={logo} alt="logo"/></h1>
       <ul>
         <li><a href="">Beranda</a></li>
-        <li><a href="">Pengelolahan Sampah</a></li>
+        <li><Link to="pengelola-sampah">Pengelolahan Sampah</Link></li>
         <li><a href="">Blog</a></li>
         <li><a href="">Hubungi Kami</a></li>
       </ul>
