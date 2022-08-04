@@ -572,7 +572,7 @@ ul.dropdown-profil li:last-child {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 50px 40px;
+  padding: 25px 40px;
 }
 
 .footer-fix {
@@ -602,6 +602,11 @@ ul.dropdown-profil li:last-child {
   align-items: center;
   margin-top: 150px;
   margin-left: 20px;
+  text-decoration: none;
+}
+
+.back-page:hover {
+  cursor: pointer;
 }
 
 .arrv2 {
@@ -619,6 +624,10 @@ ul.dropdown-profil li:last-child {
 
 .step-by {
   margin-top: 20px;
+}
+
+.done-step {
+  color: limegreen !important;
 }
 
 ul.step-by li {
@@ -652,6 +661,7 @@ li.on-step span {
 }
 
 .card-fix {
+  padding-top: 1px;
   margin-top: 30px;
   width: 95%;
   height: 82%;
@@ -732,3 +742,176 @@ li.on-step span {
   margin-right: 5px;
   font-size: 10px;
 }
+
+/* step 2 */
+
+.dfc {
+  display: flex !important;
+  align-items: center;
+}
+
+.dfmc {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 20px !important;
+}
+
+.kirif, .kananf {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.panel-fix {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #D1D2D4;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.panel-fix h5 {
+  color: var(--main);
+  font-size: 11px;
+}
+
+.pkf {
+  height: 140px;
+}
+
+.cab {
+  width: 100%;
+  display: inline-block;
+  color: var(--main);
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.fganti {
+  font-size: 11px;
+  color: var(--main);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: underline;
+}
+
+.fpage {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.ntf {
+  margin: 5px 0;
+  font-size: 10px;
+}
+
+.fhp {
+  height: 283px;
+}
+
+.radio {
+  width: 10px;
+  outline-color: #00A1BE;
+}
+
+.flni {
+  margin-top: 9px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.lrf {
+  font-size: 9px;
+  font-weight: 300;
+  margin-left: 3px;
+}
+
+.pudf {
+  display: flex;
+}
+
+.textrf {
+  font-size: 11px;
+}
+
+.fref {
+  display: flex;
+  padding: 20 60px !important;
+  border-color: #5C5E6A !important;
+  justify-content: space-between !important;
+  margin-bottom: 0px !important;
+}
+
+small {
+  font-size: 8px;
+  color: #9FAAA9;
+  margin-bottom: 15px;
+}
+ 
+.mtfskp {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.kcheck {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.kcheck span {
+  margin-right: 20px;
+}
+
+.lsof {
+  margin-right: 0 !important;
+  margin-left: 3px;
+  font-size: 6px;
+  font-weight: 300;
+}
+
+.wof {
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+.checks {
+  width: 13px;
+}
+
+.llainnya {
+  font-size: 9px;
+  display: block;
+  color: #9FAAA9;
+  border-bottom: 1px solid #9FAAA9;
+}
+
+.btn-fix-s {
+  font-size: 11px;
+  padding: 10px !important;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.btn-fix-a {
+  font-size: 11px;
+  padding: 10px !important;
+  position: absolute;
+  bottom: 15px;
+  right: 190px;
+}
+
+.lofsmac {
+  position: relative !important;
+}
+
+.scalefix {
+  transform: scale(0.67) translateY(-130px);
+}
+
+

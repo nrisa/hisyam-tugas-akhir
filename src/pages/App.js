@@ -13,6 +13,7 @@ function App() {
   const [navigasi, setNavigasi] = useState('profil')
   const [poin, setPoin] = useState('wallet')
   const [sampah, setSampah] = useState('proses')
+  const [step, setStep] = useState('step1')
 
   return (
     <Router>
@@ -24,7 +25,7 @@ function App() {
             <Route path='/setting' element={<Setting nav={setNavigasi} choose={navigasi} />} />
             <Route path='/poin' element={<ExchangePoin nav={setPoin} choose={poin} />} />
             <Route path='/sampah' element={<Main nav={setSampah} choose={sampah} />} />
-            <Route path='/kirim' element={<Kirim/>} />
+            <Route path='/kirim' element={<Kirim step={step} next={setStep}/>} />
           </Routes>
         </main>
         <Footer />

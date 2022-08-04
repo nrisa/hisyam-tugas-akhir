@@ -11,6 +11,8 @@ import woff from './icon/wallet-off.png'
 import map from './card/map.svg'
 import call from './card/call.svg'
 import date from './card/date.svg'
+import help from './help.svg'
+import done from './done.svg'
 
 export { 
     logo, 
@@ -25,5 +27,7 @@ export {
     arr2,
     map,
     call,
-    date
+    date,
+    help,
+    done
 }

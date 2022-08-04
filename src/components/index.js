@@ -9,6 +9,9 @@ import Pulsa from './Pulsa';
 import Proses from './Proses';
 import Selesai from './Selesai';
 import Batal from './Batal';
+import Ksatu from './Ksatu';
+import Kdua from './Kdua';
+import Ktiga from './Ktiga';
 
 export { 
   Navbar, 
@@ -21,5 +24,8 @@ export {
   Pulsa,
   Proses,
   Selesai,
-  Batal
+  Batal,
+  Ksatu,
+  Kdua,
+  Ktiga
 }
