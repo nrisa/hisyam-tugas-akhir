@@ -936,3 +936,15 @@ small {
   padding: 10px;
   border-radius: 4px;
 }
+
+.title-text-lp {
+  font-size: 20px;
+  color: #007DA3;
+}
+
+.linegreen {
+  margin-top: 10px;
+  display: block;
+  width: 10%;
+  border-bottom: 2px solid limegreen;
+}
