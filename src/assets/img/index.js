@@ -13,6 +13,13 @@ import call from './card/call.svg'
 import date from './card/date.svg'
 import help from './help.svg'
 import done from './done.svg'
+import guide from './guide.jpg'
+import i1 from './icon-jenis-sampah/1.svg'
+import i2 from './icon-jenis-sampah/2.svg'
+import i3 from './icon-jenis-sampah/3.svg'
+import i4 from './icon-jenis-sampah/4.svg'
+import i5 from './icon-jenis-sampah/5.svg'
+import i6 from './icon-jenis-sampah/6.svg'
 
 export { 
     logo, 
@@ -29,5 +36,12 @@ export {
     call,
     date,
     help,
-    done
+    done,
+    i1,
+    i2,
+    i3,
+    i4,
+    i5,
+    i6,
+    guide
 }

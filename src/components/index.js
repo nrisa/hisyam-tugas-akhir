@@ -12,6 +12,7 @@ import Batal from './Batal';
 import Ksatu from './Ksatu';
 import Kdua from './Kdua';
 import Ktiga from './Ktiga';
+import Faq from './Faq';
 
 export { 
   Navbar, 
@@ -27,5 +28,6 @@ export {
   Batal,
   Ksatu,
   Kdua,
-  Ktiga
+  Ktiga,
+  Faq
 }
