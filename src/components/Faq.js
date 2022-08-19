@@ -1,9 +1,12 @@
+import { ig, lin, mail, segitiga, tw, wa } from "../assets/img";
+
 const Faq = () => {
     return (
         <>
          <div class="opini">
             <div class="faq-1">
                 <h1 class="faq">F.A.Q</h1>
+                <span className='linegreen mkanb'></span><br/>
                 <h3 class="faq2">Pertayaan yang paling sering ditanyakan</h3>
             </div><br />    <br />
             <div class="opini1">
@@ -25,12 +28,14 @@ const Faq = () => {
                 program-program khusus daur ulang. jangan lupa sebarkan berita baik ini ya!!</p>
             </div>
             <button class="ks1">Kirim sampah sekarang</button>
+        <img src={segitiga} class="segitiga"/>         
         </div>
-        <img src="segitiga.png" class="segitiga"/>
         <div>
             <div class="info">
                 <div class="pusat">
                     <h1 class="pb">Pusat Bantuan</h1>
+                    
+                <span className='linegreen'></span><br/>
                     <p class="pb1">Mengalami masalah atau membutuhkan informasi lebih lanjut?<br/>Hubungi pusat bantuan kami<br/>Kami siap melayani anda</p>
                 </div>
                 <div class="cont">
@@ -43,7 +48,7 @@ const Faq = () => {
                     </div>
                     <div>
                         <div class="mail">
-                            <img src="wa.png"  class="mail1"/>
+                            <img src={wa}  class="mail1"/>
                         </div>
                         <h2 class="mail2">Whatsapp</h2>
                         <h5 class="mail3">0821-1110-0170</h5>
@@ -55,11 +60,11 @@ const Faq = () => {
             <div>
                 <h2 class="sc">Our Social Media</h2>
                 <div class="sosmed">
-                    <img src="fb.png" class="sosmed2"/>
-                    <img src="tw.png" class="sosmed2" />
-                    <img src="ln.png" class="sosmed2"/>
-                    <img src="ig.png" class="sosmed2"/>
-                    <img src="yt.png" class="sosmed2"/>
+                    <img src={wa} class="sosmed2"/>
+                    <img src={tw} class="sosmed2" />
+                    <img src={lin} class="sosmed2"/>
+                    <img src={ig} class="sosmed2"/>
+                    <img src={ig} class="sosmed2"/>
                 </div>
             </div>
             <div class="alamat2">

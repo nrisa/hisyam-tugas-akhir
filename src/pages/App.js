@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Pages dan Component
-import { Setting, ExchangePoin, Main, Detail, Kirim, PengelolaSampah, Home } from '.';
+import { Setting, Regis, ExchangePoin, Main, Detail, Kirim, PengelolaSampah, Home, Login } from '.';
 import { Navbar, Footer } from '../components'
 
 // css
@@ -28,6 +28,8 @@ function App() {
             <Route path='/sampah' element={<Main nav={setSampah} choose={sampah} />} />
             <Route path='/kirim' element={<Kirim step={step} next={setStep}/>} />
             <Route path='/pengelola-sampah' element={<PengelolaSampah />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/regis' element={<Regis />} />
           </Routes>
         </main>
         <Footer />

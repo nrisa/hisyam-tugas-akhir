@@ -1,29 +1,37 @@
 import '../assets/css/home.css'
+import { bg1, bg2, bg3, bg4, frame, ft, maxf, wa } from '../assets/img';
+import Faq from '../components/Faq';
 
 const Home = () => {
     return (
-        <div className='hpages'>
-        <div class="tengah">
-            <div class="tengah2">
-                <h2 class="daur">Daur ulang sampah individual</h2>
-                <p>punya sampah tapi bingung dan ngga tau harus dibuang kemana?</p>
-                <p>Kalau dibakar malah tambah polusi,apalagi dibuang ke sungai bisa bamjir</p>
-                <p>Biar lingkungan kamu bersih, sehat dan terbebas dari sampah</p>
-                <p>Yuk! Kirim sampah </p>
-                <button class="ks">Kirim Sampah </button>
-                <button class="cs">Cara ngolah sampah</button>
+        <div className='hpages'><br /><br/>
+            <div className="container">
+                <div class="tengah">
+                    <div class="tengah2">
+                        <h2 class="daur">Daur ulang sampah individual</h2>
+                        <p>punya sampah tapi bingung dan ngga tau harus dibuang kemana?</p>
+                        <p>Kalau dibakar malah tambah polusi,apalagi dibuang ke sungai bisa bamjir</p>
+                        <p>Biar lingkungan kamu bersih, sehat dan terbebas dari sampah</p>
+                        <p>Yuk! Kirim sampah </p>
+                        <button class="ks">Kirim Sampah </button>
+                        <button class="cs">Cara ngolah sampah</button>
+                    </div>
+                    <img src={frame} class="sampah"/>
+                    <img src={bg4} className="ppgi" />
+                </div>
+                
             </div>
-            <img src="frame.png" class="sampah"/>
-            <img src="gambar1.png"/>
-        </div>
-        <div class="contact">
-            <h3>Hubungi kami</h3>
-            <img src="wa.png" class="wa"/>
-        </div>
-        <div class="dialog">
-            <h1 class="mb">Masih buang sampah sembarangan?</h1>
-            <p class="stop">Stop mulai dari sekarang!</p>
-        </div>
+            <br /><br /><br />
+            <div className="fupp container">
+                <div class="dialog">
+                    <h1 class="mbh1p">Masih buang sampah sembarangan?</h1>
+                    <p class="stop">Stop mulai dari sekarang!</p>
+                </div>
+                <div class="contact">
+                    <h3>Hubungi kami</h3>
+                    <img src={wa} class="wa"/>
+                </div>
+            </div>
         <div class="peringatan">
             <div>
                 <h2 class="kw">Kalian wajib tau!</h2>
@@ -37,46 +45,50 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src="korban.png" class="korban"/>
+                <img src={ft} class="korban"/>
             </div>
         </div>
         <div class="keuntungan">
-            <h1 class="kirim">Keuntungan kirim sampah</h1>
+            <h1 class="kirim">Keuntungan kirim sampah</h1>            
+            <span className='linegreen mkanb'></span><br/>
             <p class="selain">Selain keuntungan kamu juga membantu mengurangi sampah di sekitarmu</p>
         </div>
         <div class="tiga">
             <div>
-                <img src="buang-sampah.png" class="buang"/>
+                <img src={bg1} class="buang"/>
                 <h2 class="diolah">Sampah diolah secara bertanggung jawab</h2>
                 <p class="tb">tak perlu bingung mengolah sampah</p>
                 <p class="ksk">kirim sampah kamu tak perlu khawatir</p>
             </div>
             <div>
-                <img src="amico.png" class="buang"/>
+                <img src={bg2} class="buang"/>
                 <h2 class="diolah1">Kirim sampah se-fleksibel itu</h2>
                 <p class="tb1">kirim sampah dari rumah? Bisa..</p>
                 <p class="ksk1">kirim langsung ke mitra? Bisa..</p>
             </div>
             <div>
-                <img src="amico1.png" class="buang"/>
+                <img src={bg3} class="buang"/>
                 <h2 class="diolah2">Operator sampah lebih sejahtera</h2>
                 <p class="tb2">terima kasih telah membantu kesejahteraan dan</p>
                 <p class="ksk2">kesehatan operator sampah</p>
             </div>
         </div>
-        <div class="program">
-            <img src="sampah.png" class="bijak"/>
+        <div class="container program">
+            <img src={maxf} class="bijak"/>
             <div class="daur1">
                 <h1 class="individu">Program Daur Ulang Sampah Individu</h1>
                 <p class="pdu">Program Daur Ulang Sampah Individu memudahkan anda melakukan<br/>
                 daur ulang sampah anoganik secara bertanggung jawab sehingga sehingga<br/>
                 tidak berakhir di TPA atau di laut</p>
+                <button className='csgt'>Kirim Sampah Sekarang</button>
             </div>
         </div>
         <div class="forchange">
             <div class="garis">
                 <h1 class="empat">Tentang Waste4Change</h1>
+                <span className='linegreen mkanb'></span><br/>
                 <p class="waste">feedback dari anda selalu memberi kami semangat untuk berinovasi dan membantu kehidupan yang lebih baik </p>
+                <br /><br />
                 <div class="waste4">
                     <div class="fitriani">
                         <p class="fitriani2">"Senang bisa bantu mengurangi sampah <br/>
@@ -96,14 +108,16 @@ const Home = () => {
                         <h5 class="fitriani4">Pengguna Waste4change</h5>
                     </div>
                 </div>
-                <div class="span">
-                    <div class="span1"></div>
-                    <div class="span2"></div>
-                    <div class="span2"></div>
-                </div>
+                <center>
+                    <div class="span">
+                        <div class="span1"></div>
+                        <div class="span2"></div>
+                        <div class="span2"></div>
+                    </div>
+                </center>
             </div>
         </div>
-       
+       <Faq/>
         </div>
     )
 }

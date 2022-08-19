@@ -158,7 +158,6 @@ const PengelolaSampah = () => {
             </div>
             <br /><br /><br />
             <Faq />
-            <br />
         </div>
     )
 }

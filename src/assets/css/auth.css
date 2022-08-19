@@ -1,0 +1,51 @@
+.auth {
+    display: flex;
+    position: fixed;
+    top: 0;left: 0;
+    bottom: 0;right: 0;
+    z-index: 999;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.banner-auth {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/sampah.jpg);
+    position: relative;
+}
+
+.l-auth {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.sub-t-auth {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    display: block;
+    color: white;
+}
+
+.form-auth {
+    width: 40%;
+    padding: 40px;
+}
+
+.pnp-auth {
+    font-size: 13px;
+}
+.bnb-auth {
+    font-weight: bold;
+}
+
+.form-t-auth {
+    width: 100%;
+}
+
+.btn-plus {
+    width: 100% !important;
+}
